@@ -1,0 +1,22 @@
+# wiimote 2.0 configuration
+
+##################################
+# Global configuration. Defaults are listed, commented.
+
+#uinput-path=/dev/uinput
+
+#daemonize=1
+
+#retry-count=1
+
+# If daemonizing, the daemon process's log is discarded regardless of verbosity.
+#verbosity=3
+
+#nunchuk-separate=0
+#classic-separate=1
+
+#################################
+# Devices
+# Aliases provided here can be used when launching, and are also the uinput device name.
+
+#device.MyDeviceName = 00:00:00:00:00:00
